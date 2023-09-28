@@ -4,8 +4,12 @@
 import express from "express";
 import { ParseServer } from "parse-server";
 import path from "path";
+import http from "http";
+import { configDotenv } from "dotenv";
 const __dirname = path.resolve();
-
+if (process.env.NODE_ENV !== "production") {
+  configDotenv();
+}
 export const config = {
   databaseURI:
     process.env.DATABASE_URI ||
@@ -34,4 +38,12 @@ if (!process.env.TESTING) {
   const server = new ParseServer(config);
   await server.start();
   app.use(mountPath, server.app);
+}
+
+if (!process.env.TESTING) {
+  const port = process.env.PORT || 1337;
+  const httpServer = http.createServer(app);
+  httpServer.listen(port, function () {
+    console.log("parse-server-example running on port " + port + ".");
+  });
 }
