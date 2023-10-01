@@ -25,13 +25,13 @@ jobs:
         run: npm install
 
       - name: compress artefact
-        run: tar -czf ./parse-app.tar.gz .
+        run: zip -r ./parse-app.zip .
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
           name: parse-app
-          path: ./parse-app.tar
+          path: ./parse-app.zip
 
   deploy:
     runs-on: ubuntu-latest
@@ -47,7 +47,7 @@ jobs:
           name: parse-app
 
       - name: Uncompress artefact
-        run: tar -xzvf ./parse-app.tar.gz -C .
+        run: unzip -q ./parse-app.zip -d .
 
       - name: "Deploy to Azure Web App"
         id: deploy-to-webapp
