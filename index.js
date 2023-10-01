@@ -44,6 +44,6 @@ if (!process.env.TESTING) {
   const port = process.env.PARSE_PORT || 1337;
   const httpServer = http.createServer(app);
   httpServer.listen(port, function () {
-    console.log("parse-server-example running on port " + port + ".");
+    console.log("monkeytype parse server BaaS running on port " + port + ".");
   });
 }
