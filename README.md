@@ -1,10 +1,9 @@
 <div id="top"></div>
-[![Contributors][contributors-shield]][contributors-url]
+
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+
 <br />
 <div align="center">
 
@@ -63,15 +62,9 @@ This deployment job was very instructive for me especially when it comes to netw
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/HediKhemiri3001/monkeytype-clone-backend.svg?style=for-the-badge
-[contributors-url]: https://github.com/HediKhemiri3001/monkeytype-clone-backend/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/HediKhemiri3001/monkeytype-clone-backend.svg?style=for-the-badge
 [forks-url]: https://github.com/HediKhemiri3001/monkeytype-clone-backend/network/members
 [stars-shield]: https://img.shields.io/github/stars/HediKhemiri3001/monkeytype-clone-backend.svg?style=for-the-badge
 [stars-url]: https://github.com/HediKhemiri3001/monkeytype-clone-backend/stargazers
-[issues-shield]: https://img.shields.io/github/issues/HediKhemiri3001/monkeytype-clone-backend.svg?style=for-the-badge
-[issues-url]: https://github.com/HediKhemiri3001/monkeytype-clone-backend/issues
-[license-shield]: https://img.shields.io/github/license/HediKhemiri3001/monkeytype-clone-backend.svg?style=for-the-badge
-[license-url]: https://github.com/HediKhemiri3001/monkeytype-clone-backend/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/mohamed-hedi-khemiri/
