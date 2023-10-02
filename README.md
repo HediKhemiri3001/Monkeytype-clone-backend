@@ -47,7 +47,7 @@ This project is a simple API that is using a Backend as a Service (BaaS) platfor
 
 As my Azure student credits aren't infinite, and this is my first real tangible project hosted on Azure, I used a single node architecture. My app is hosted in a App Service instance, and it communicates with a Mongodb Atlas instance.
 
-![My Azure architecture](assets/Monkeytype%20backend.drawio.png)
+![My Azure architecture][assets/Monkeytype%20backend.drawio.png]
 
 This deployment job was very instructive for me especially when it comes to networking and working with virtual networks and having to provide a static outbound IP Address for the app to be able to allow communication to pass through from that address to the Database. I hope to find a way to automate this whole process soon.
 
